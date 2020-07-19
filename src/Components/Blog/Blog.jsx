@@ -38,7 +38,6 @@ const Blog = ({ blogObject, direction }) => {
             Read More
           </button>
           <div className="share-div">
-            <span> Share With</span>
             <ShareButtons url={"www.google.com"} />
           </div>
         </div>

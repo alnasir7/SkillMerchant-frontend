@@ -37,8 +37,10 @@ const Homepage = () => {
           </button>
         </div>
       </div>
-      <div className="row blog-intro">
-        <h1>View our blog</h1>
+      <div style={{ position: "relative", width: "100vw", height: "100px" }}>
+        <div className="row blog-intro">
+          <h1>View our blog</h1>
+        </div>
       </div>
 
       <div className="row blog-container">

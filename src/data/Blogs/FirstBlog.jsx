@@ -2,6 +2,7 @@ import React from "react";
 import image from "../../misc/icon5.png";
 
 const FirstBlog = () => {
+  console.log("ok");
   return (
     <div className="first-blog">
       <p>

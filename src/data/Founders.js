@@ -1,8 +1,9 @@
-import icon from "../misc/icon5.png";
+import icon1 from "../misc/mohammed.jpg";
+import icon2 from "../misc/Zurain.jpg";
 
 const Mohammed = {
   fullName: "Mohammed Elnasir",
-  image: icon,
+  image: icon1,
   id: 2,
   job: "Web Developer",
   text:
@@ -11,7 +12,7 @@ const Mohammed = {
 
 const Zurain = {
   fullName: "Zurain Zeeshan",
-  image: icon,
+  image: icon2,
   id: 1,
   job: "Founder",
   text:

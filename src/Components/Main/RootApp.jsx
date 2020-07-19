@@ -43,10 +43,10 @@ const RootApp = () => {
             className="conatiner program"
           >
             <Route path="/home" component={Homepage} />
+            <Route path="/" exact component={Homepage} />
             <Route path="/about" component={AboutUs} />
             <Route path="/contact" component={Contact} />
             <Route path="/blog/:id" component={BlogPage} />
-            <Redirect from="/" exact to="/home" />
           </div>
           <Footer />
         </div>

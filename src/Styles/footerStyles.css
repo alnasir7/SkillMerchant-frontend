@@ -10,8 +10,11 @@
 }
 
 .footer-div {
-  padding: 20px 0px;
-  margin: 0 auto;
+  padding: 10px;
+}
+
+.footer-div table {
+  margin: 10px;
 }
 
 .contact-div {

@@ -4,6 +4,7 @@ import ShareButtons from "./ShareButtons";
 
 const BlogPage = () => {
   const blog = Blogs[0];
+
   const { RenderdText } = blog;
   console.log(RenderdText);
   return (

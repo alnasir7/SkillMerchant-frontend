@@ -4,7 +4,8 @@
 }
 
 .home-div {
-  height: 80vh;
+  min-height: 75vh;
+  max-height: 95vh;
   background-color: #2f3138;
 }
 
@@ -22,17 +23,17 @@
 }
 
 .blog-intro {
-  left: 0%;
-  margin: 0 auto;
-  width: 50%;
-  text-align: center;
-  transform: translateY(50%);
-  position: relative;
+  margin-top: 5vh;
+  margin-bottom: 8vh;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
   color: black;
 }
 
 .blog-intro h1 {
   border-bottom: 1px black solid;
+  font-size: 3rem;
 }
 
 .second-page {
@@ -55,16 +56,35 @@
 }
 
 @media screen and (max-width: 768px) {
+  .main-div {
+    margin-top: 10vh;
+    color: white;
+  }
+
+  .home-div {
+    min-height: 75vh;
+    max-height: 95vh;
+    background-color: #2f3138;
+  }
+
   .mission-statement {
-    margin: 35vh auto;
-    margin-right: 9vw;
-    font-size: 2.15rem;
+    margin-top: 10vh;
+    margin-bottom: 9vh;
+    font-size: 2rem;
     color: white;
     white-space: pre;
   }
-  .second-header {
-    margin: 40px auto;
-    color: #032343;
+
+  .secondary-text {
+    font-size: 0.8rem;
+    margin-bottom: 7vh;
+  }
+
+  .blog-intro h1 {
     font-size: 2rem;
+  }
+
+  .blog-intro h1 {
+    border-bottom: 1px black solid;
   }
 }
