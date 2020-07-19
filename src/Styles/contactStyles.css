@@ -1,0 +1,118 @@
+.title-div {
+  width: 100%;
+  margin-top: 10vh;
+  padding: 25px;
+}
+
+.first-section {
+  background-color: #2f3138;
+  color: white;
+}
+
+.second-section {
+  margin-top: 30px;
+  background-color: white;
+  color: black;
+}
+
+.title-div h1 {
+  font-size: 4rem;
+}
+
+.paragraph-div {
+  padding: 15px;
+  width: 75vw;
+}
+
+.paragraph-div p {
+  text-align: start;
+  font-size: 2rem;
+}
+
+.contact-information {
+  text-align: start;
+  padding: 15px;
+  font-size: 32px;
+}
+
+.contact-information-container {
+  margin-top: 20px;
+
+  padding: 15px;
+
+  text-align: start;
+}
+
+.contact-information-container img {
+  height: 60px;
+  width: 60px;
+}
+
+.contact-information-container a {
+  text-decoration: none;
+
+  color: black;
+}
+
+.contact-information-container h6 {
+  position: absolute;
+  left: 0%;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 18px;
+}
+
+.message-container {
+  margin-top: 5vh;
+  box-shadow: 0px 0px 20px 0px grey;
+  border: 1px solid grey;
+  border-radius: 10px;
+  margin-bottom: 5vh;
+  padding: 2%;
+  min-height: 80vh;
+}
+
+@media screen and (max-width: 769px) {
+  .first-section {
+    background-color: #2f3138;
+    color: white;
+  }
+
+  .second-section {
+    margin-top: 30px;
+    background-color: white;
+    color: black;
+  }
+
+  .title-div {
+    height: 20px;
+  }
+  .title-div h1 {
+    font-size: 18px;
+  }
+  .paragraph-div {
+    padding: 7px;
+    width: 100vw;
+  }
+
+  .paragraph-div p {
+    text-align: start;
+    font-size: 1rem;
+  }
+
+  .contact-information-container {
+    margin-top: 10px;
+
+    padding: 7px;
+
+    text-align: center;
+  }
+  .contact-information-container img {
+    height: 40px;
+    width: 40px;
+  }
+
+  .contact-information-container h6 {
+    font-size: 11px;
+  }
+}

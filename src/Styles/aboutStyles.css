@@ -1,0 +1,116 @@
+.about-container {
+  margin-left: 0px;
+
+  margin-right: 0px;
+  margin-bottom: 0%;
+  padding: 0px;
+  min-height: fit-content;
+}
+
+.about-statement {
+  margin-bottom: 7%;
+  text-align: center;
+  padding: 2%;
+  min-width: 100vw;
+  max-height: 50vh;
+}
+
+.about-statement h2 {
+  font-size: 4rem;
+}
+
+.about-statement h2 {
+  margin-top: 3%;
+  font-size: 3rem;
+}
+
+.about-statement p {
+  margin-top: 4%;
+  font-size: 1.5rem;
+}
+
+.team-row {
+  background-color: #041c2c;
+  min-height: 100%;
+  text-align: center;
+  min-width: 100vw;
+  color: white;
+}
+
+.founder-card-container {
+  height: fit-content;
+}
+
+.team-cards-row {
+  background-color: #041c2c;
+  min-height: 80vh;
+  min-width: 100vw;
+  color: white;
+}
+
+.founder-card img {
+  object-fit: contain;
+}
+
+.custom-founder-card {
+  height: fit-content;
+}
+
+.custom-founder-card h2 {
+  font-size: 1em;
+  font-weight: 400;
+}
+.custom-founder-card h3,
+p {
+  font-weight: 300;
+}
+
+.custom-founder-card h3 {
+  color: #6c757d;
+  font-size: 1em;
+  padding: 10px 0 10px 0;
+}
+
+.custom-founder-card p {
+  color: #6c757d;
+}
+
+@media screen and (max-width: 768px) {
+  .team-cards-row {
+    background-color: #041c2c;
+
+    min-width: 100vw;
+    color: white;
+  }
+
+  .about-statement {
+    margin-bottom: 7%;
+    text-align: center;
+    padding: 2%;
+    min-width: 100vw;
+  }
+
+  .about-statement h2 {
+    font-size: 2rem;
+  }
+
+  .about-statement h2 {
+    margin-top: 3%;
+    font-size: 1.5rem;
+  }
+
+  .about-statement p {
+    margin-top: 4%;
+    font-size: 0.7rem;
+  }
+
+  .custom-founder-card img {
+    height: 55vh;
+    width: 65vw;
+    object-fit: contain;
+  }
+
+  .founder-card-container {
+    min-height: 100vh;
+  }
+}

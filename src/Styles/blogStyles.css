@@ -1,0 +1,130 @@
+custom-button-blog {
+  margin-top: 20px;
+}
+
+.share-div {
+  margin-top: 20px;
+}
+.share-div span {
+  margin-right: 10px;
+}
+
+.share-div-2 {
+  padding: 20px 0;
+  border-top: 1px groove grey;
+  margin-top: 5px;
+  font-size: 24px;
+}
+
+.blog-container {
+  background-color: white;
+  min-height: fit-content;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 5vh;
+  padding-right: 5vh;
+}
+
+.blog-row {
+  min-height: fit-content;
+  padding: 25px;
+  margin-bottom: 10vh;
+}
+
+.blog-image {
+  display: flex;
+  align-items: center;
+  min-width: fit-content;
+  min-height: fit-content;
+}
+
+.blog-image img {
+  height: 250px;
+  width: 320px;
+  object-fit: fill;
+}
+
+.blog-text {
+  color: #032343;
+  font-size: 20px;
+  text-align: start;
+}
+
+.blog-text h4 {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.blog-text p {
+  font-size: 16px;
+}
+
+.blog-page {
+  margin-top: 18vh;
+  margin-bottom: 8vh;
+  padding-right: 26vw;
+  padding-left: 26vw;
+  text-align: start;
+}
+
+.blog-page h2 {
+  text-align: center;
+  margin: 45px;
+  font-weight: bold;
+  font-size: 2rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  border-bottom: 1px grey groove;
+  width: fit-content;
+}
+
+@media screen and (max-width: 769px) {
+  .blog-container {
+    background-color: white;
+    min-height: fit-content;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .blog-row {
+    min-height: fit-content;
+    padding: 15px;
+  }
+  .blog-image {
+    min-width: fit-content;
+    min-height: fit-content;
+    padding: 0%;
+  }
+
+  .blog-image img {
+    padding: 10px;
+    height: 250px;
+    width: 320px;
+    object-fit: cover;
+  }
+
+  .blog-text {
+    color: #032343;
+
+    text-align: start;
+  }
+
+  .blog-text h4 {
+    font-weight: bold;
+    font-size: 14px;
+  }
+
+  .blog-text p {
+    font-size: 11px;
+  }
+
+  .blog-page h2 {
+    margin: 25px;
+    font-size: 1rem;
+    border-bottom: 1px grey groove;
+    width: fit-content;
+  }
+
+  .blog-page h3 {
+    font-size: 1.3rem;
+  }
+}

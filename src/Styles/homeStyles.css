@@ -1,0 +1,70 @@
+.main-div {
+  margin-top: 10vh;
+  color: white;
+}
+
+.home-div {
+  height: 80vh;
+  background-color: #2f3138;
+}
+
+.mission-statement {
+  margin-top: 10vh;
+  margin-bottom: 9vh;
+  font-size: 4rem;
+  color: white;
+  white-space: pre;
+}
+
+.secondary-text {
+  font-size: 1.4rem;
+  margin-bottom: 7vh;
+}
+
+.blog-intro {
+  left: 0%;
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+  transform: translateY(50%);
+  position: relative;
+  color: black;
+}
+
+.blog-intro h1 {
+  border-bottom: 1px black solid;
+}
+
+.second-page {
+  margin: 0 auto;
+  background-color: white;
+  color: #032343;
+  min-width: 100vw;
+  min-height: 50vh;
+  padding-bottom: 10px;
+}
+
+.second-header {
+  margin: 40px auto;
+  color: #032343;
+}
+
+.last-div {
+  background: #032343;
+  min-height: 25vh;
+}
+
+@media screen and (max-width: 768px) {
+  .mission-statement {
+    margin: 35vh auto;
+    margin-right: 9vw;
+    font-size: 2.15rem;
+    color: white;
+    white-space: pre;
+  }
+  .second-header {
+    margin: 40px auto;
+    color: #032343;
+    font-size: 2rem;
+  }
+}

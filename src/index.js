@@ -1,14 +1,25 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import App from "./App";
+import * as serviceWorker from "./serviceWorker";
+import "bootstrap/dist/css/bootstrap.css";
+import "./App.css";
+import "./Styles/homeStyles.css";
+import "./Styles/aboutStyles.css";
+import "./Styles/navbarStyles.css";
+import "./Styles/contactStyles.css";
+import "./Styles/footerStyles.css";
+import "./Styles/sidebarStyles.css";
+import "./Styles/blogStyles.css";
+import "./Styles/modalStyles.css";
+import "./data/Blogs/firstBlog.css";
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
 
 // If you want your app to work offline and load faster, you can change
