@@ -1,57 +1,52 @@
 .about-container {
-  margin-left: 0px;
-
-  margin-right: 0px;
-  margin-bottom: 0%;
-  padding: 0px;
-  min-height: fit-content;
+  margin-top: 10vh;
 }
 
 .about-statement {
   margin-bottom: 7%;
+  background-color: #2f3138;
+  color: white;
   text-align: center;
   padding: 2%;
   min-width: 100vw;
-  max-height: 50vh;
 }
 
 .about-statement h2 {
   font-size: 4rem;
 }
 
-.about-statement h2 {
-  margin-top: 3%;
-  font-size: 3rem;
-}
-
 .about-statement p {
-  margin-top: 4%;
+  margin-top: 4vh;
   font-size: 1.5rem;
 }
 
 .team-row {
-  background-color: #041c2c;
+  background-color: white;
   min-height: 100%;
   text-align: center;
   min-width: 100vw;
-  color: white;
+  color: black;
+  position: relative;
+  margin-bottom: 8vh;
+}
+
+.team-row h1 {
+  font-size: 3rem;
+  position: absolute;
+  padding: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-bottom: 1px solid grey;
 }
 
 .founder-card-container {
-  height: fit-content;
+  color: black;
 }
 
-.team-cards-row {
-  background-color: #041c2c;
-  min-height: 80vh;
-  min-width: 100vw;
-  color: white;
-}
-
-.founder-card img {
+.custom-founder-card img {
   object-fit: contain;
-  height: 250px;
-  width: 250px;
+  height: 320px;
+  width: 320px;
 }
 
 .custom-founder-card {
@@ -59,60 +54,61 @@
 }
 
 .custom-founder-card h2 {
-  font-size: 1em;
-  font-weight: 400;
+  font-size: 2.5rem;
 }
-.custom-founder-card h3,
-p {
-  font-weight: 300;
+.custom-founder-card p {
+  font-size: 1rem;
 }
 
 .custom-founder-card h3 {
-  color: #6c757d;
-  font-size: 1em;
-  padding: 10px 0 10px 0;
-}
-
-.custom-founder-card p {
-  color: #6c757d;
+  font-size: 1.5rem;
 }
 
 @media screen and (max-width: 768px) {
-  .team-cards-row {
-    background-color: #041c2c;
-
-    min-width: 100vw;
-    color: white;
+  .about-container {
+    margin-top: 10vh;
   }
 
   .about-statement {
     margin-bottom: 7%;
+    background-color: #2f3138;
+    color: white;
     text-align: center;
     padding: 2%;
     min-width: 100vw;
   }
 
   .about-statement h2 {
-    font-size: 2rem;
-  }
-
-  .about-statement h2 {
-    margin-top: 3%;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
   }
 
   .about-statement p {
-    margin-top: 4%;
-    font-size: 0.7rem;
+    margin-top: 4vh;
+    font-size: 1rem;
+  }
+
+  .team-row h1 {
+    font-size: 1.5rem;
   }
 
   .custom-founder-card img {
-    height: 55vh;
-    width: 65vw;
     object-fit: contain;
+    height: 250px;
+    width: 250px;
   }
 
-  .founder-card-container {
-    min-height: 100vh;
+  .custom-founder-card {
+    height: fit-content;
+  }
+
+  .custom-founder-card h2 {
+    font-size: 1.8rem;
+  }
+  .custom-founder-card p {
+    font-size: 0.6rem;
+  }
+
+  .custom-founder-card h3 {
+    font-size: 0.9rem;
   }
 }

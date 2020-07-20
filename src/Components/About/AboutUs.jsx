@@ -23,10 +23,10 @@ const AboutUs = () => {
         <h1>Meet Our Team</h1>
       </div>
       <div className="row team-cards-row">
-        <div className="col col-12 col-lg-6 founder-card-container">
+        <div className="col col-12 col-md-6 founder-card-container">
           <FounderCard id={1} />
         </div>
-        <div className="col col-12 col-lg-6 founder-card-container">
+        <div className="col col-12 col-md-6 founder-card-container">
           <FounderCard id={2} />{" "}
         </div>
       </div>

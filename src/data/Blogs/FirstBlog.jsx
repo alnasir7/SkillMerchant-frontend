@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../../misc/icon5.png";
+import image from "../../misc/online-learning.jpg";
 
 const FirstBlog = () => {
   console.log("ok");

@@ -52,7 +52,7 @@ const Navbar = ({ props }) => {
           <i onClick={dropSidebar} className="fas fa-bars"></i>
         </div>
         <div className="spacer-mobile"></div>
-        <div className="flexItem ml-3 img-container">
+        <div className="flexItem img-container">
           <Link to="/home">
             <img src={icon} alt="Logo Unavailable" />
           </Link>

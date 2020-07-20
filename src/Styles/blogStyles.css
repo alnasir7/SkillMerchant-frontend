@@ -21,8 +21,6 @@ custom-button-blog {
   min-height: fit-content;
   padding-top: 20px;
   padding-bottom: 20px;
-  padding-left: 5vh;
-  padding-right: 5vh;
 }
 
 .blog-row {
@@ -32,8 +30,7 @@ custom-button-blog {
 }
 
 .blog-image {
-  display: flex;
-  align-items: center;
+  position: relative;
   min-width: fit-content;
   min-height: fit-content;
 }
@@ -42,6 +39,7 @@ custom-button-blog {
   height: 250px;
   width: 320px;
   object-fit: fill;
+  margin: 20px auto;
 }
 
 .blog-text {

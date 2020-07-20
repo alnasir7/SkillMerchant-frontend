@@ -3,6 +3,9 @@ import {
   FacebookShareButton,
   TwitterShareButton,
   WhatsappShareButton,
+  FacebookIcon,
+  WhatsappIcon,
+  TwitterIcon,
 } from "react-share";
 
 const ShareButtons = (props) => {
@@ -10,13 +13,13 @@ const ShareButtons = (props) => {
   return (
     <div style={{ display: "inline" }}>
       <FacebookShareButton url={url}>
-        <i className="fab fa-facebook fa-lg social-media-icon"></i>
+        <FacebookIcon size={40} round={true} className="social-media-icon" />
       </FacebookShareButton>
       <TwitterShareButton url={url}>
-        <i className="fab fa-twitter fa-lg social-media-icon"></i>
+        <TwitterIcon size={40} round={true} className="social-media-icon" />
       </TwitterShareButton>
       <WhatsappShareButton url={url}>
-        <i class="fab fa-whatsapp fa-lg social-media-icon"></i>
+        <WhatsappIcon size={40} round={true} className="social-media-icon" />
       </WhatsappShareButton>
     </div>
   );

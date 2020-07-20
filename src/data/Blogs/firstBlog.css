@@ -35,8 +35,8 @@
   left: 50%;
   transform: translateX(-50%);
   margin: 8px;
-  height: 650px;
-  width: 650px;
+  height: 450px;
+  width: 450px;
   object-fit: contain;
 }
 
