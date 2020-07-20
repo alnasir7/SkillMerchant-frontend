@@ -14,6 +14,7 @@ import "./Styles/sidebarStyles.css";
 import "./Styles/blogStyles.css";
 import "./Styles/modalStyles.css";
 import "./data/Blogs/firstBlog.css";
+import "./data/Blogs/secondBlog.css";
 
 ReactDOM.render(
   <React.StrictMode>

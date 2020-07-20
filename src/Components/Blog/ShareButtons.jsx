@@ -10,16 +10,17 @@ import {
 
 const ShareButtons = (props) => {
   const url = props.url;
+  const size = props.size;
   return (
     <div style={{ display: "inline" }}>
       <FacebookShareButton url={url}>
-        <FacebookIcon size={40} round={true} className="social-media-icon" />
+        <FacebookIcon size={size} round={true} className="social-media-icon" />
       </FacebookShareButton>
-      <TwitterShareButton url={url}>
-        <TwitterIcon size={40} round={true} className="social-media-icon" />
+      <TwitterShareButton url={size}>
+        <TwitterIcon size={size} round={true} className="social-media-icon" />
       </TwitterShareButton>
       <WhatsappShareButton url={url}>
-        <WhatsappIcon size={40} round={true} className="social-media-icon" />
+        <WhatsappIcon size={size} round={true} className="social-media-icon" />
       </WhatsappShareButton>
     </div>
   );

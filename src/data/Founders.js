@@ -16,7 +16,7 @@ const Zurain = {
   id: 1,
   job: "Founder",
   text:
-    "I am a Pakistani Entrprenuer. I study at Whitman College. I came up with the idea of The Skill Merchant to teach people about technology ",
+    "I am a Pakistani Entrprenuer. I study at Whitman College. I came up with the Skill Merchant in response to Covid-19. The purpose is teach people how be productive amidst the crisis",
 };
 
 export const founders = [Mohammed, Zurain];

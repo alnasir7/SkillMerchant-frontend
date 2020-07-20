@@ -1,7 +1,6 @@
 import React, { useState } from "react";
-import facebook from "../../misc/facebook.webp";
-import gmail from "../../misc/gmail.png";
-import phone from "../../misc/gmail.png";
+
+import { FacebookIcon, EmailIcon, ViberIcon } from "react-share";
 import * as userServices from "../../Services/userServices";
 
 const Contact = () => {
@@ -46,7 +45,7 @@ const Contact = () => {
         <div className="container-fluid contact-information-container">
           <div className="row">
             <div className="col col-3 col-md-1">
-              <img src={facebook} alt="Facebook: " />
+              <FacebookIcon size={60} round={true} />
             </div>
             <div className="col col-8 col-md-6">
               <a
@@ -59,7 +58,7 @@ const Contact = () => {
           </div>
           <div className="row mt-4">
             <div className="col col-3 col-md-1 ">
-              <img src={gmail} alt="Gmail: " />
+              <EmailIcon size={60} round={true} />
             </div>
             <div className="col col-8 col-md-6">
               <h6>Mohammed.eltigani@uwccostarica.org</h6>
@@ -67,7 +66,7 @@ const Contact = () => {
           </div>
           <div className="row mt-4">
             <div className="col col-3 col-md-1">
-              <img src={phone} alt="Phone: " />
+              <ViberIcon size={60} round={true} />
             </div>
             <div className="col col-8 col-md-6">
               <h6>+506 7168 5725</h6>

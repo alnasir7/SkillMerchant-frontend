@@ -23,10 +23,10 @@ const Homepage = () => {
           <br></br>
           <div className="secondary-text">
             <span>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-              provident ipsa dignissimos obcaecati molestias accusantium, velit
-              dolore adipisci, minus repellat veritatis praesentium nisi
-              accusamus illum qui sapiente dolores temporibus quos!
+              There is no doubt that the world is experiencing a massive shift
+              towards online educational platforms. The skill merchant blog
+              helps you explore your interests and develop your skill, to
+              prepare yourself for an online future.
             </span>
           </div>
           <button
@@ -37,7 +37,7 @@ const Homepage = () => {
           </button>
         </div>
       </div>
-      <div style={{ position: "relative", width: "100vw", height: "100px" }}>
+      <div className="intro-container">
         <div className="row blog-intro">
           <h1>View our blog</h1>
         </div>

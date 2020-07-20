@@ -9,13 +9,12 @@ const AboutUs = () => {
           <h2 className="mb-4">About Us</h2>
           <h3>Our Mission</h3>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe
-            dignissimos modi nemo est nisi, quae optio facilis tenetur quidem,
-            accusantium sapiente ipsa. Quam, animi dignissimos! Numquam
-            exercitationem quam tempora tempore? Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Numquam ad doloribus consequuntur non
-            quibusdam, exercitationem in cupiditate aliquam aliquid harum error
-            quaerat saepe maiores, esse qui totam! Excepturi, soluta doloribus?
+            Our mission is to help guide during the online shift the world is
+            experiencing. The skill merchant was conceived in response to the
+            Covid-19 crisis to help people adapt to the changes that are
+            happening, and present them with new ways of exploring their
+            interests. We aim to teach people how to make the most of these hard
+            times and utilize this opportunity to learn new skills.
           </p>
         </div>
       </div>

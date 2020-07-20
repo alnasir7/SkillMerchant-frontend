@@ -2,7 +2,6 @@ import React from "react";
 import image from "../../misc/online-learning.jpg";
 
 const FirstBlog = () => {
-  console.log("ok");
   return (
     <div className="first-blog">
       <p>
